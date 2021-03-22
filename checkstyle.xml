@@ -23,6 +23,11 @@
 
   <module name="FileTabCharacter"/>
 
+  <!-- Small customizations -->
+  <module name="LineLength">
+    <property name="max" value="140"/>
+  </module>
+
   <module name="TreeWalker">
     <!-- code cleanup -->
     <module name="UnusedImports">

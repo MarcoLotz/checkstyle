@@ -14,7 +14,11 @@
   <build>
     <resources>
       <resource>
-        <directory>${basedir}/checkstyle</directory>
+        <directory>${basedir}</directory>
+        <filtering>true</filtering>
+        <includes>
+          <include>checkstyle.xml</include>
+        </includes>
       </resource>
     </resources>
   </build>
