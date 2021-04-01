@@ -31,7 +31,6 @@
   <module name="TreeWalker">
     <!-- allows checkstyle to be disabled in certain files
     https://stackoverflow.com/questions/1012407/how-to-suppress-all-checks-for-a-file-in-checkstyle-->
-    <module name="FileContentsHolder"/>
     <module name="SuppressionCommentFilter"/>
     <!-- code cleanup -->
     <module name="UnusedImports">
